@@ -3,7 +3,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from langchain_groq import ChatGroq
-from langchain_core.messages import HumanMessage #LangChain often requires input to be formatted as a list of message objects (e.g., HumanMessage, SystemMessage, AIMessage).
+from langchain_core.messages import HumanMessage 
+#LangChain often requires input to be formatted as a list of message objects (e.g., HumanMessage, SystemMessage, AIMessage).
 
 # Set the Groq API key (using environment variable for security)
 # use command prompt "set GROQ_API_KEY=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"
